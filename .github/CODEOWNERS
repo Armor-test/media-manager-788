@@ -1,0 +1,34 @@
+# CODEOWNERS file for media-manager-788
+# Global owners - will be requested for all PRs
+* @Armor-test/team-frontend @Armor-test/dept-automation @Armor-test/grp-search
+
+# Directory ownership
+/test/ @Armor-test/team-governance @Armor-test/unit-design @Armor-test/squad-tooling
+/modules/ @Armor-test/team-reporting @Armor-test/dept-logging @Armor-test/team-governance
+/extensions/ @Armor-test/grp-storage @Armor-test/dept-automation @Armor-test/team-governance
+/styles/ @Armor-test/squad-mobile @Armor-test/dept-billing @Armor-test/squad-cache
+/auth/ @Armor-test/team-logging @Armor-test/team-frontend
+/shared/ @Armor-test/dept-logging @Armor-test/squad-research
+/security/ @Armor-test/dept-logging @Armor-test/squad-api
+/hooks/ @Armor-test/squad-database @Armor-test/squad-qa @Armor-test/dept-notifications
+/scripts/ @Armor-test/dept-release @Armor-test/grp-storage @Armor-test/squad-search
+/services/ @Armor-test/team-frontend @Armor-test/unit-design @Armor-test/grp-api
+
+# File type ownership
+*.xml @Armor-test/dept-notifications @Armor-test/dept-ui @Armor-test/dept-data
+*.scala @Armor-test/grp-reporting @Armor-test/team-logging
+*.html @Armor-test/unit-test @Armor-test/team-research
+*.gradle @Armor-test/grp-storage @Armor-test/squad-api
+*.java @Armor-test/grp-search @Armor-test/squad-ml @Armor-test/grp-storage
+*.js @Armor-test/grp-search @Armor-test/grp-ui @Armor-test/dept-identity
+*.toml @Armor-test/squad-frontend @Armor-test/dept-security
+*.c @Armor-test/grp-integration @Armor-test/dept-logging
+*.scss @Armor-test/unit-test @Armor-test/grp-search @Armor-test/squad-api
+*.tf @Armor-test/team-notifications @Armor-test/team-security @Armor-test/team-reporting
+*.ts @Armor-test/team-notifications @Armor-test/dept-notifications
+*.ini @Armor-test/unit-devops @Armor-test/dept-data @Armor-test/squad-product
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
